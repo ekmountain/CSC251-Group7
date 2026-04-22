@@ -1,4 +1,4 @@
-package groupproject2025;
+
 // LiveExample 10.2
 public class LoanTemplate {
 	  private double annualInterestRate;
@@ -71,6 +71,7 @@ public class LoanTemplate {
 	  public double getTotalInterest() {
 	    // to do
 		// totalInterest is the difference of total payment minus loan amount
+		double totalInterest = getTotalPayment() - loanAmount;
 	    return totalInterest;    
 	  }
 
