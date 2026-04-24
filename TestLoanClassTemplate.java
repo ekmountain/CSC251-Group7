@@ -41,6 +41,7 @@ public class TestLoanClassTemplate {
     extraPayFirstMonth(loan, extraPaymentAmount);
     System.out.println();
     extraPayEveryMonth(loan, extraPaymentAmount);
+	input.close();
   }
   
   /** Extra payment first month only */
